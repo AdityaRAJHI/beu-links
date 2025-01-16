@@ -1,0 +1,36 @@
+import React from 'react';
+    import './Syllabus.css';
+
+    function Syllabus() {
+      return (
+        <div className="syllabus-container">
+          <h1>Syllabus</h1>
+           <p>
+            Click the links below to view the syllabus for BEU and AKU University.
+          </p>
+          <a
+            href="https://beubiharsyllabus.blogspot.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            BEU University Syllabus
+          </a>
+          <br/>
+           <a
+            href="https://www.akubihar.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            AKU University Syllabus
+          </a>
+          <div className="note-section">
+            <p>
+              <b>Note:</b> These links will take you to external websites. Please verify the information
+              provided on the external sites.
+            </p>
+          </div>
+        </div>
+      );
+    }
+
+    export default Syllabus;

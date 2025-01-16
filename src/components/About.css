@@ -1,0 +1,51 @@
+.about-container {
+      padding: 20px;
+    }
+
+    .notes-section {
+      margin-top: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .notes-section h2 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .notes-section textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 1em;
+      margin-bottom: 10px;
+      min-height: 100px;
+    }
+
+    .notes-section button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #4caf50;
+      color: white;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+    }
+
+    .notes-section button:hover {
+      background-color: #45a049;
+    }
+
+    .notes-display {
+      margin-top: 15px;
+      padding: 10px;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      white-space: pre-wrap;
+      font-family: monospace;
+    }
